@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "key-master"
+version = "0.0.1"
+description = "Library for authenticating and connecting to Google Drive"
+authors = ["Gustav Rasmussen"]
+license = "MIT"
+packages = [
+    { include = "src/python" },
+]
+repository = "https://github.com/TheNewThinkTank/key-master"
+keywords = ["google-drive", "authentication", "library"]
+
+[tool.poetry.dependencies]
+# pydantic = "^2.10.4"
+python = "^3.11"
+icecream = "^2.1.3"
+google-api-python-client = "^2.156.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.1"
+gspread = "^6.1.4"
+# python-dotenv = "^1.0.1"
+sphinx-rtd-theme = "^3.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.3.4"
+pytest-cov = "^6.0.0"
+Sphinx = "^8.1.3"
+sphinx-rtd-theme = "^3.0.2"
+wily = "^1.25"
+ruff = "^0.8.4"
+mypy = "^1.14.0"
+
+[tool.pytest.ini_options]
+pythonpath = "src:src/python"
+
+[tool.poetry.extras]
+docs = ["sphinx", "sphinx_rtd_theme"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,30 @@
+{
+    "name": "key-master",
+    "version": "0.0.1",
+    "description": "Library for authenticating and connecting to Google Drive",
+    "main": "googleDriveUtils.ts",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "tsc",
+      "lint": "eslint . --ext .ts"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TheNewThinkTank/key-master.git"
+    },
+    "author": "Gustav Rasmussen",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/TheNewThinkTank/key-master/issues"
+    },
+    "homepage": "https://github.com/TheNewThinkTank/key-master#readme",
+    "dependencies": {
+      "googleapis": "^144.0.0",
+      "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+      "@types/node": "^22.10.3",
+      "@typescript-eslint/eslint-plugin": "^7.8.0",
+      "@typescript-eslint/parser": "^7.8.0"
+    }
+  }
