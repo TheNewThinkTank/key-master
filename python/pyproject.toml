@@ -24,7 +24,7 @@ sphinx-rtd-theme = "^3.0.2"
 [tool.poetry.dev-dependencies]
 pytest = "^8.3.4"
 pytest-cov = "^6.0.0"
-Sphinx = "^8.1.3"
+Sphinx = "^8.2.3"
 sphinx-rtd-theme = "^3.0.2"
 wily = "^1.25"
 ruff = "^0.8.4"
