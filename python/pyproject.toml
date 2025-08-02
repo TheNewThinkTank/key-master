@@ -27,7 +27,7 @@ pytest-cov = "^6.0.0"
 Sphinx = "^8.2.3"
 sphinx-rtd-theme = "^3.0.2"
 wily = "^1.25"
-ruff = "^0.8.4"
+ruff = "^0.12.7"
 mypy = "^1.17.1"
 
 [tool.pytest.ini_options]
