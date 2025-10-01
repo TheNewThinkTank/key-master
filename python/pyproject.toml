@@ -28,7 +28,7 @@ Sphinx = "^8.2.3"
 sphinx-rtd-theme = "^3.0.2"
 wily = "^1.25"
 ruff = "^0.12.7"
-mypy = "^1.17.1"
+mypy = "^1.18.2"
 
 [tool.pytest.ini_options]
 pythonpath = "python:python/key_master"
