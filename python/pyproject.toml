@@ -13,7 +13,7 @@ keywords = ["google-drive", "authentication", "library"]
 [tool.poetry.dependencies]
 # pydantic = "^2.10.4"
 python = "^3.11"
-icecream = "^2.1.5"
+icecream = "^2.1.8"
 gspread = "^6.2.1"
 google-api-python-client = "^2.177.0"
 google-auth-httplib2 = "^0.2.0"
