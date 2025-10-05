@@ -424,14 +424,14 @@ grpcio-gcp = ["grpcio-gcp (>=0.2.2,<1.0.dev0)"]
 
 [[package]]
 name = "google-api-python-client"
-version = "2.177.0"
+version = "2.184.0"
 description = "Google API Client Library for Python"
 optional = false
 python-versions = ">=3.7"
 groups = ["main"]
 files = [
-    {file = "google_api_python_client-2.177.0-py3-none-any.whl", hash = "sha256:f2f50f11105ab883eb9b6cf38ec54ea5fd4b429249f76444bec90deba5be79b3"},
-    {file = "google_api_python_client-2.177.0.tar.gz", hash = "sha256:9ffd2b57d68f5afa7e6ac64e2c440534eaa056cbb394812a62ff94723c31b50e"},
+    {file = "google_api_python_client-2.184.0-py3-none-any.whl", hash = "sha256:15a18d02f42de99416921c77be235d12ead474e474a1abc348b01a2b92633fa4"},
+    {file = "google_api_python_client-2.184.0.tar.gz", hash = "sha256:ef2a3330ad058cdfc8a558d199c051c3356f6ed012436c3ad3d08b67891b039f"},
 ]
 
 [package.dependencies]
@@ -1710,4 +1710,4 @@ docs = ["sphinx-rtd-theme"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "6d064922faa308e818e7760a826a967b609bce2194821500c321e8e64a2d68d0"
+content-hash = "3ceae05af5da44a53a8c933bd74a02e423143175c1caf3fc2b77d31f5d7b064d"
