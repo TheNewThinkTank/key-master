@@ -19,7 +19,7 @@
     },
     "homepage": "https://github.com/TheNewThinkTank/key-master#readme",
     "dependencies": {
-      "googleapis": "^161.0.0",
+      "googleapis": "^164.1.0",
       "lodash": "^4.17.21"
     },
     "devDependencies": {
